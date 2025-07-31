@@ -4,10 +4,12 @@ import pytesseract
 from pdf2image import convert_from_bytes
 from PIL import Image
 
-load_dotenv()
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-GROQ_MODEL_NAME = os.getenv("GROQ_MODEL_NAME")
-EMBEDDING_MODEL_NAME = os.getenv("EMBEDDING_MODEL_NAME")
+import os
+
+groq_api_key = os.environ.get("GROQ_API_KEY")
+groq_model = os.environ.get("GROQ_MODEL_NAME")
+embedding_model = os.environ.get("EMBEDDING_MODEL_NAME")
+
 
 # For Windows users, you might need to set the tesseract command path
 # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
