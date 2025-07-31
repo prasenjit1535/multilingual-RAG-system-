@@ -9,3 +9,6 @@ faiss-cpu
 huggingface-hub
 langchain-groq
 sentence-transformers
+pytesseract
+Pillow
+opencv-python-headless
