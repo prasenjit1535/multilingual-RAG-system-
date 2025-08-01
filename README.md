@@ -72,6 +72,7 @@ Edit
  Integrate multilingual PDF OCR (Tesseract)
 
  Dockerize the app
+ To see demo just click on 'view raw' 
 
 🤝 Contributing
 PRs are welcome! For major changes, please open an issue first.
